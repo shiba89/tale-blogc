@@ -9,8 +9,9 @@
 
     <title>
       {% block entry %}
-        {% ifdef TITLE %}{{ TITLE }} &middot; {% endif %}{{ SITE_TITLE }}
+        {% ifdef TITLE %}{{ TITLE }} &middot; {% endif %}
       {% endblock %}
+      {{ SITE_TITLE }}
     </title>
 
     <!-- CSS -->

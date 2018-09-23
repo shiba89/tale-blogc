@@ -1,0 +1,25 @@
+[environment]
+AUTHOR_NAME = "Shiba"
+AUTHOR_EMAIL = "not@telling.you"
+SITE_TITLE = "Tale"
+SITE_TAGLINE = "Minimal theme for storytellers, now on blogc"
+BASE_DOMAIN = "http://example.com"
+
+[settings]
+locale = "en_US.utf-8"
+date_format = "%d %b %Y"
+posts_per_page = 5
+atom_posts_per_page = 10
+source_ext = .md
+
+[posts]
+
+[pages]
+about
+
+[copy_files]
+assets/css/poole.css
+assets/css/syntax.css
+assets/css/lanyon.css
+assets/apple-touch-icon-precomposed.png
+assets/favicon.ico

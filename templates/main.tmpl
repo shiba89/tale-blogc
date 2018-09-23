@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if MAKE_RULE == "index" %}
+      <meta name="description" content="{{ SITE_TAGLINE }}">
+    {% endif %}
+
+    <title>
+      {% block entry %}
+        {% ifdef TITLE %}{{ TITLE }} &middot; {% endif %}{{ SITE_TITLE }}
+      {% endblock %}
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ BASE_URL }}/assets/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ BASE_URL }}/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ BASE_URL }}/assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ BASE_URL }}/assets/apple-touch-icon.png">
+
+    <!-- RSS -->
+    <link href="{{ BASE_URL }}/atom.xml" rel="alternate" type="application/atom+xml" title="{{ SITE_TITLE }}" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ BASE_URL }}/">
+          <h2 class="nav-title">{{ SITE_TITLE }}</h2>
+        </a>
+        <ul>
+          <li><a href="{{ BASE_URL }}/about">About</a></li>
+          <li><a href="{{ BASE_URL }}/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+    <!-- TODO -->
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time>2018</time> {{ SITE_AUTHOR }}. Made with <a href="https://blogc.rgm.io/">blogc</a> using the <a href="https://github.com/shiba89/tale-blogc/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
+
+<!-- vim: set ts=2 sw=2 tw=0 et : -->

@@ -1,6 +1,7 @@
 TITLE:  Introducing Tale
 DATE: 2017-03-29
 AUTHOR: Chester
+DESCRIPTION: Tale is a minimal Jekyll theme curated for storytellers. It is designed and developed by myself for a friend who writes short stories.
 ---
 Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
 
@@ -11,7 +12,7 @@ Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers
 - Markdown and HTML text formatting
 - Pagination of posts
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+Head over to the [Example Content](/post/2017-03-16-example-content) post for a showcase of Tale's text formatting features.
 
 ## Browser Support
 Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼

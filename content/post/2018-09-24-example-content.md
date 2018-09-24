@@ -1,6 +1,6 @@
 TITLE: Example Content
-DATE: 2017-03-16
-AUTHOR: Chester
+DATE: 2018-09-24
+AUTHOR: Shiba
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
 
@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 
 	**Bold**
 	_Italics_
-	~~Strikethrough~~
+	<p><strike>Strikethrough</strike></p>
 	<p><ins>Underline</ins></p>
 	<p><sup>Superscript</sup></p>
 	<p><sub>Subscript</sub></p>
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 
 _Italics_
 
-~~Strikethrough~~
+<p><strike>Strikethrough</strike></p>
 
 <p><ins>Underline</ins></p>
 
@@ -96,21 +96,11 @@ Use back-ticks for `inline code`. Multi-line code snippets are supported too.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-# Horizontal Rule & Line Break
+# Horizontal Rule
 
-	Use `<hr>` for horizontal rules
-	
-	<hr>
-	
-	and `<br>` for line breaks.
-	
-	<br>
+Use `---` for horizontal rules
 
-Use `<hr>` for horizontal rules
-
-<hr>
-
-and `<br>` for line breaks.
+---
 
 <br>
 

@@ -92,11 +92,9 @@ Use back-ticks for `inline code`. Multi-line code snippets are supported too.
 
 # Blockquotes
 
-	> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare
-	> vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+	> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare
-> vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 # Horizontal Rule & Line Break
 

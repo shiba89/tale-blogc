@@ -7,18 +7,18 @@ BASE_DOMAIN = "http://example.com"
 
 [settings]
 locale = "en_US.utf-8"
-date_format = "%d %b %Y"
+date_format = "%B %d, %Y"
 posts_per_page = 5
 atom_posts_per_page = 10
 source_ext = .md
 
 [posts]
-#2017-03-05-pagination-post
-#2017-03-06-the-mystery-of-the-filler-post
-#2017-03-07-the-case-of-the-missing-post
-#2017-03-10-welcome-to-jekyll
-#2017-03-16-example-content
-#2017-03-29-introducing-tale
+2017-03-05-pagination-post
+2017-03-06-the-mystery-of-the-filler-post
+2017-03-07-the-case-of-the-missing-post
+2017-03-10-welcome-to-jekyll
+2017-03-16-example-content
+2017-03-29-introducing-tale
 
 [pages]
 about

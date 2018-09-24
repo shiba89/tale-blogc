@@ -41,6 +41,67 @@
     </nav>
 
     <main>
+      {% block listing_once %}
+      <div class="catalogue">
+      {% endblock %}
+        {% block listing %}
+          <a href="{{ BASE_URL }}/post/{{ FILENAME }}" class="catalogue-item">
+            <div>
+              {% ifdef DATE_FORMATTED %}
+              <time datetime="{{ DATE }}" class="catalogue-time">{{ DATE_FORMATTED }}</time>
+              {% endif %}
+              <h1 class="catalogue-title">{{ TITLE }}</h1>
+              <div class="catalogue-line"></div>
+
+              <p>
+                {{ DESCRIPTION }}
+              </p>
+
+            </div>
+          </a>
+        {% endblock %}
+      {% block listing_once %}
+      </div>
+      {% endblock %}
+      {% block listing_once %}
+      <div class="pagination">
+        {% ifdef PREVIOUS_PAGE %}
+        <a href="{{ BASE_URL }}/page/{{ PREVIOUS_PAGE }}" class="left arrow">&#8592;</a>
+        {% endif %}
+        {% ifdef NEXT_PAGE %}
+        <a href="{{ BASE_URL }}/page/{{ NEXT_PAGE }}" class="right arrow">&#8594;</a>
+        {% endif %}
+
+        <span>{{ CURRENT_PAGE }}</span>
+      </div>
+      {% endblock %}
+      {% block entry %}
+      <div class="post">
+        <div class="post-info">
+          <span>Written by</span>
+          {% ifdef AUTHOR %}
+              {{ AUTHOR }}
+          {% else %}
+              {{ AUTHOR_NAME }}
+          {% endif %}
+
+          {% ifdef DATE_FORMATTED %}
+            <br>
+            <span>on&nbsp;</span><time datetime="{{ DATE }}">{{ DATE_FORMATTED }}</time>
+          {% endif %}
+        </div>
+
+        <h1 class="post-title">{{ TITLE }}</h1>
+        <div class="post-line"></div>
+
+        {{ CONTENT }}
+
+      </div>
+
+      <div class="pagination">
+        <a href="#" class="top">Top</a>
+      </div>
+      {% endblock %}
     <!-- TODO -->
     </main>
 
